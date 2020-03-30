@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WEBSERVICE</title>
+		<style>
+			button {background: lightgreen}
+			input[type=text]  {background: yellow}
+			body {font-family: courier; font-size: small}
+		</style>
+		<script src="jquery-3.3.1.js"></script>
+		<script>
+			function drawDiv(x,y,l,h,c,t,i)
+			{
+					document.write(
+					   "<textarea id=" + i + " style='left:" +
+					   x + "px;top:" + y + "px;width:" + l + 
+					   "px;height:" + h + "px;background:" + 
+					   c + ";position:absolute;padding:10px'>" + t + "</textarea>"	
+					);
+			};
+			$(document).ready(function(){
+				$("#b1").click(function(){
+					$.get("http://localhost:8080/phonebook/pbservice",
+					function(data,status) {
+						$("#d1").text(data);
+					});
+				});
+				$("#b2").click(function(){
+					$.get("http://localhost:8080/phonebook/pbservice/"+$("#in1").val(),
+					function(data,status) {
+						$("#d1").text(data);
+					});
+				});
+				
+				$("#b3").click(function(){
+					var pbr = { "name" : $("#in2").val() , "phone" : $("#in3").val()};
+					$.ajax({url: "http://localhost:8080/phonebook/pbservice",
+					 		type: "PUT",
+					 		contentType : "text/plain; charset=UTF-8",
+					 		data: JSON.stringify(pbr),
+					 		success: function(data) {
+					 			$("#d1").text(data);
+    						}
+					});
+				});
+				$("#b4").click(function(){
+					var oldpbr = { "name" : $("#in41").val() , "phone" : $("#in51").val()};
+					var newpbr = { "name" : $("#in42").val() , "phone" : $("#in52").val()};
+					$.ajax({url: "http://localhost:8080/phonebook/pbservice",
+					 		type: "POST",
+					 		contentType : "text/plain; charset=UTF-8",
+					 		data: JSON.stringify(oldpbr) + "\n" + JSON.stringify(newpbr),
+					 		success: function(data) {
+					 			$("#d1").text(data);
+    						}
+					});
+				});
+				$("#b5").click(function(){
+					$.ajax({url: "http://localhost:8080/phonebook/pbservice/" + $("#in6").val(),
+					 		type: "DELETE",
+					 		success: function(data) {
+					 			$("#d1").text(data);
+    						}
+					});
+				});				
+			});
+		</script>
+	</head>
+	<body>  
+		<script>
+		drawDiv(10,200,500,200,"lightblue","","d1");
+		</script>
+		<button id="b1">Show all records</button><br>
+		<br>Name&nbsp;<input id="in1" type="text"></input>
+		<button id="b2">Show record</button><br>
+		<br>Name&nbsp;<input id="in2" type="text"></input>&nbsp;
+		    Phone&nbsp;<input id="in3" type="text"></input>
+		    <button id="b3">Add record</button><br>
+		<br>Old Name&nbsp;<input id="in41" type="text"></input>&nbsp;
+		    Old Phone&nbsp;<input id="in51" type="text"></input>
+		<br>New Name&nbsp;<input id="in42" type="text"></input>&nbsp;
+		    New Phone&nbsp;<input id="in52" type="text"></input>    
+		    <button id="b4">Modify record</button><br>    
+		<br>Name&nbsp;<input id="in6" type="text"></input>
+		<button id="b5">Remove record</button><br><br>	     
+	</body>
+</html>
+

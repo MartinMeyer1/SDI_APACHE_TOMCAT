@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS-JQ-Ex</title>
+		<script src="jquery-3.3.1.js"></script>
+		<script>
+			function drawDiv(x,y,l,h,c,t,i)
+			{
+					document.write(
+					   "<div id=" + i + " style='left:" +
+					   x + "px;top:" + y + "px;width:" + l +
+					   "px;height:" + h + "px;background:" +
+					   c + ";position:absolute;padding:10px'>" + t + "</div>"
+					);
+			};
+			function addInput(idDiv,idInp,type,caption)
+			{
+				var keep = $("#"+idDiv).html()
+				$("#"+idDiv).html(keep + "<br><input type="+ type+
+				" id=" + idInp + " value=" + caption + "></input>");
+			}
+			$(document).ready(function(){
+
+				<!-- write code that sens data to calc when the send button is clicked -->
+				<!-- use the post method! -->
+
+			});
+		</script>
+	</head>
+	<body>
+		<script>
+
+		<!-- write code that create the 4 different div as schown in the task settig -->
+		<!-- use the function drawDiv -->
+
+		<!-- write code to add the inputs and the button -->
+		<!-- use the function addInput -->
+
+		</script>
+	</body>
+</html>

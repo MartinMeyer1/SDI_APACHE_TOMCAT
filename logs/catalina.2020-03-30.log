@@ -1,0 +1,106 @@
+30-Mar-2020 13:42:51.955 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/9.0.17
+30-Mar-2020 13:42:51.988 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Mar 13 2019 15:55:27 UTC
+30-Mar-2020 13:42:51.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      9.0.17.0
+30-Mar-2020 13:42:51.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Windows 10
+30-Mar-2020 13:42:51.991 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        10.0
+30-Mar-2020 13:42:51.993 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Mar-2020 13:42:51.994 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     C:\Program Files\Java\jdk1.8.0_151\jre
+30-Mar-2020 13:42:51.996 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_151-b12
+30-Mar-2020 13:42:51.997 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+30-Mar-2020 13:42:52.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 13:42:52.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 13:42:52.003 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\conf\logging.properties
+30-Mar-2020 13:42:52.003 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Mar-2020 13:42:52.004 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+30-Mar-2020 13:42:52.004 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Mar-2020 13:42:52.004 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+30-Mar-2020 13:42:52.005 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 13:42:52.006 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 13:42:52.007 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\temp
+30-Mar-2020 13:42:52.008 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.2.21] en utilisant APR version [1.6.5]
+30-Mar-2020 13:42:52.009 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR: IPv6 [true], sendfile [true], accept filters [false], random [true]
+30-Mar-2020 13:42:52.012 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL: useAprConnector [false], useOpenSSL [true]
+30-Mar-2020 13:42:52.032 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 1.1.1a  20 Nov 2018]
+30-Mar-2020 13:42:52.600 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 13:42:52.917 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+30-Mar-2020 13:42:52.925 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1 567] millisecondes
+30-Mar-2020 13:42:52.987 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+30-Mar-2020 13:42:52.988 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets: [Apache Tomcat/9.0.17]
+30-Mar-2020 13:42:52.996 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\docs]
+30-Mar-2020 13:42:53.371 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\docs] de l'application web s'est terminé en [375] ms
+30-Mar-2020 13:42:53.373 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\examples]
+30-Mar-2020 13:42:53.874 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\examples] de l'application web s'est terminé en [502] ms
+30-Mar-2020 13:42:53.875 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\host-manager]
+30-Mar-2020 13:42:53.921 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\host-manager] de l'application web s'est terminé en [46] ms
+30-Mar-2020 13:42:53.925 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\manager]
+30-Mar-2020 13:42:54.010 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\manager] de l'application web s'est terminé en [85] ms
+30-Mar-2020 13:42:54.094 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\miniCalc]
+30-Mar-2020 13:42:54.287 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\miniCalc] de l'application web s'est terminé en [223] ms
+30-Mar-2020 13:42:54.293 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\phonebook]
+30-Mar-2020 13:42:54.399 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\phonebook] de l'application web s'est terminé en [106] ms
+30-Mar-2020 13:42:54.399 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\ROOT]
+30-Mar-2020 13:42:54.437 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\ROOT] de l'application web s'est terminé en [38] ms
+30-Mar-2020 13:42:54.443 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 13:42:54.461 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+30-Mar-2020 13:42:54.475 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1 547] millisecondes
+30-Mar-2020 14:14:07.502 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+30-Mar-2020 14:14:07.503 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+30-Mar-2020 14:14:07.826 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+30-Mar-2020 14:14:08.039 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+30-Mar-2020 14:14:08.072 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 14:14:08.076 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+30-Mar-2020 14:14:08.079 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 14:14:08.079 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]
+30-Mar-2020 14:14:10.521 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/9.0.17
+30-Mar-2020 14:14:10.524 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Mar 13 2019 15:55:27 UTC
+30-Mar-2020 14:14:10.525 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      9.0.17.0
+30-Mar-2020 14:14:10.525 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Windows 10
+30-Mar-2020 14:14:10.526 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        10.0
+30-Mar-2020 14:14:10.526 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Mar-2020 14:14:10.527 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     C:\Program Files\Java\jdk1.8.0_151\jre
+30-Mar-2020 14:14:10.527 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_151-b12
+30-Mar-2020 14:14:10.528 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+30-Mar-2020 14:14:10.528 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 14:14:10.528 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 14:14:10.528 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\conf\logging.properties
+30-Mar-2020 14:14:10.528 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Mar-2020 14:14:10.529 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+30-Mar-2020 14:14:10.529 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Mar-2020 14:14:10.529 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+30-Mar-2020 14:14:10.531 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 14:14:10.531 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17
+30-Mar-2020 14:14:10.532 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\temp
+30-Mar-2020 14:14:10.534 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.2.21] en utilisant APR version [1.6.5]
+30-Mar-2020 14:14:10.537 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR: IPv6 [true], sendfile [true], accept filters [false], random [true]
+30-Mar-2020 14:14:10.538 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL: useAprConnector [false], useOpenSSL [true]
+30-Mar-2020 14:14:10.545 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 1.1.1a  20 Nov 2018]
+30-Mar-2020 14:14:10.710 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 14:14:10.969 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+30-Mar-2020 14:14:10.975 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [912] millisecondes
+30-Mar-2020 14:14:11.021 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+30-Mar-2020 14:14:11.022 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets: [Apache Tomcat/9.0.17]
+30-Mar-2020 14:14:11.031 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\docs]
+30-Mar-2020 14:14:11.366 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\docs] de l'application web s'est terminé en [334] ms
+30-Mar-2020 14:14:11.367 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\examples]
+30-Mar-2020 14:14:11.881 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\examples] de l'application web s'est terminé en [514] ms
+30-Mar-2020 14:14:11.882 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\host-manager]
+30-Mar-2020 14:14:11.937 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\host-manager] de l'application web s'est terminé en [55] ms
+30-Mar-2020 14:14:11.938 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\manager]
+30-Mar-2020 14:14:11.997 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\manager] de l'application web s'est terminé en [60] ms
+30-Mar-2020 14:14:11.998 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\miniCalc]
+30-Mar-2020 14:14:12.058 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\miniCalc] de l'application web s'est terminé en [61] ms
+30-Mar-2020 14:14:12.058 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\phonebook]
+30-Mar-2020 14:14:12.109 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\phonebook] de l'application web s'est terminé en [51] ms
+30-Mar-2020 14:14:12.111 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\ROOT]
+30-Mar-2020 14:14:12.140 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\OneDrive\Bureau\apache-tomcat-9.0.17\webapps\ROOT] de l'application web s'est terminé en [30] ms
+30-Mar-2020 14:14:12.146 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 14:14:12.181 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+30-Mar-2020 14:14:12.191 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1 215] millisecondes
+30-Mar-2020 14:21:33.156 INFOS [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+30-Mar-2020 14:21:33.157 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+30-Mar-2020 14:21:33.664 INFOS [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["ajp-nio-8009"] est mis en pause
+30-Mar-2020 14:21:33.965 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+30-Mar-2020 14:21:34.023 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 14:21:34.027 INFOS [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["ajp-nio-8009"]
+30-Mar-2020 14:21:34.057 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+30-Mar-2020 14:21:34.059 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["ajp-nio-8009"]

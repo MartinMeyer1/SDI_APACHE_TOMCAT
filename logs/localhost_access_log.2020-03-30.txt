@@ -48,3 +48,7 @@
 0:0:0:0:0:0:0:1 - - [30/Mar/2020:14:18:30 +0200] "GET /miniCalc/style_miniCalc.css HTTP/1.1" 200 132
 0:0:0:0:0:0:0:1 - - [30/Mar/2020:14:18:30 +0200] "GET /miniCalc/calc.jpg HTTP/1.1" 200 67282
 0:0:0:0:0:0:0:1 - - [30/Mar/2020:14:19:19 +0200] "POST /miniCalc/calc HTTP/1.1" 200 214
+0:0:0:0:0:0:0:1 - - [30/Mar/2020:17:57:05 +0200] "GET /miniCalc/calc.html HTTP/1.1" 200 517
+0:0:0:0:0:0:0:1 - - [30/Mar/2020:17:57:05 +0200] "GET /miniCalc/style_miniCalc.css HTTP/1.1" 200 188
+0:0:0:0:0:0:0:1 - - [30/Mar/2020:17:57:05 +0200] "GET /miniCalc/calc.jpg HTTP/1.1" 200 67282
+0:0:0:0:0:0:0:1 - - [30/Mar/2020:17:57:05 +0200] "GET /favicon.ico HTTP/1.1" 304 -

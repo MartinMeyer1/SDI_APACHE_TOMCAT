@@ -19,8 +19,32 @@
 				$("#"+idDiv).html(keep + "<br><input type="+ type+
 				" id=" + idInp + " value=" + caption + "></input>");
 			}
+            
 			$(document).ready(function(){
-
+                <!-- on click #for selecting id -->
+                $("#btnGo").click(function(){
+                    <!-- post to the calculator -->
+                    $.post("http://localhost:8080/miniCalc/calc",
+                    {   
+                        <!-- variables and values -->
+                        operandA:$("#inA").val(),
+                        operandB:$("#inB").val()
+                    },
+                    function(data,status){
+                        <!-- if post is successfull -->
+                        if(status == "success"){
+                            <!-- filter the result with strong balises -->
+                            var tab = data.split("<strong>");
+                            var tab_1 = tab[1].split("</strong>");
+                            var res=tab_1[0];     
+                            <!-- display Result on the div -->
+                            $("#divResult").html("Result:<br>"+res);
+                        }
+                        else{
+                            $("#divResult").html("Result:<br>"+"Error during calculation");
+                        }
+                    });                
+                });
 				<!-- write code that sens data to calc when the send button is clicked -->
 				<!-- use the post method! -->
 
@@ -29,12 +53,14 @@
 	</head>
 	<body>
 		<script>
-
-		<!-- write code that create the 4 different div as schown in the task settig -->
-		<!-- use the function drawDiv -->
-
-		<!-- write code to add the inputs and the button -->
-		<!-- use the function addInput -->
+            <!-- adding inputs and div -->
+            drawDiv(50,50,200,100,"lightpink","Operand A","opA");
+            addInput("opA","inA","number","0");
+            drawDiv(300,50,200,100,"lightyellow","Operand B","opB");
+            addInput("opB","inB","number","0");
+            drawDiv(550,50,100,100,"lightgray","Go ","go");
+            addInput("go","btnGo","button","send");
+            drawDiv(700,50,200,100,"lightgreen","Result:","divResult");		
 
 		</script>
 	</body>

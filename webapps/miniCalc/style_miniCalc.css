@@ -6,3 +6,7 @@ body{
     background-image: url("calc.jpg");
     background-size: cover;
 }
+input {
+  color: red;
+  background-color :yellow;
+}

@@ -177,3 +177,50 @@
 31-Mar-2020 15:16:23.472 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
 31-Mar-2020 15:16:23.492 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
 31-Mar-2020 15:16:23.499 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1 267] millisecondes
+31-Mar-2020 16:56:59.502 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Impossible de se connecter à [localhost:8005] (port de base [8005] et offset [0]), Tomcat peut ne pas être en cours dexécution
+31-Mar-2020 17:03:59.134 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/9.0.17
+31-Mar-2020 17:03:59.142 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Mar 13 2019 15:55:27 UTC
+31-Mar-2020 17:03:59.144 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      9.0.17.0
+31-Mar-2020 17:03:59.145 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Windows 10
+31-Mar-2020 17:03:59.148 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        10.0
+31-Mar-2020 17:03:59.148 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2020 17:03:59.149 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     C:\Program Files\Java\jdk1.8.0_151\jre
+31-Mar-2020 17:03:59.149 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_151-b12
+31-Mar-2020 17:03:59.149 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+31-Mar-2020 17:03:59.150 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17
+31-Mar-2020 17:03:59.150 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17
+31-Mar-2020 17:03:59.150 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\conf\logging.properties
+31-Mar-2020 17:03:59.150 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2020 17:03:59.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2020 17:03:59.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2020 17:03:59.151 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+31-Mar-2020 17:03:59.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17
+31-Mar-2020 17:03:59.152 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17
+31-Mar-2020 17:03:59.153 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\temp
+31-Mar-2020 17:03:59.153 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Chargement de la librairie Apache Tomcat Native [1.2.21] en utilisant APR version [1.6.5]
+31-Mar-2020 17:03:59.154 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Fonctionnalités d'APR: IPv6 [true], sendfile [true], accept filters [false], random [true]
+31-Mar-2020 17:03:59.154 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Configuration de APR/OpenSSL: useAprConnector [false], useOpenSSL [true]
+31-Mar-2020 17:03:59.169 INFOS [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL a été initialisé avec succès [OpenSSL 1.1.1a  20 Nov 2018]
+31-Mar-2020 17:03:59.333 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+31-Mar-2020 17:03:59.622 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+31-Mar-2020 17:03:59.640 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1 010] millisecondes
+31-Mar-2020 17:03:59.700 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+31-Mar-2020 17:03:59.701 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets: [Apache Tomcat/9.0.17]
+31-Mar-2020 17:03:59.712 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\docs]
+31-Mar-2020 17:04:00.049 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\docs] de l'application web s'est terminé en [338] ms
+31-Mar-2020 17:04:00.050 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\examples]
+31-Mar-2020 17:04:00.651 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\examples] de l'application web s'est terminé en [601] ms
+31-Mar-2020 17:04:00.652 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\host-manager]
+31-Mar-2020 17:04:00.738 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\host-manager] de l'application web s'est terminé en [85] ms
+31-Mar-2020 17:04:00.741 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\manager]
+31-Mar-2020 17:04:00.798 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\manager] de l'application web s'est terminé en [57] ms
+31-Mar-2020 17:04:00.800 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\miniCalc]
+31-Mar-2020 17:04:00.873 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\miniCalc] de l'application web s'est terminé en [74] ms
+31-Mar-2020 17:04:00.874 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\phonebook]
+31-Mar-2020 17:04:00.950 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\phonebook] de l'application web s'est terminé en [76] ms
+31-Mar-2020 17:04:00.950 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\ROOT]
+31-Mar-2020 17:04:00.985 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\meyer\Saved\Hes\SDi\apache-tomcat-9.0.17\webapps\ROOT] de l'application web s'est terminé en [35] ms
+31-Mar-2020 17:04:00.990 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+31-Mar-2020 17:04:01.005 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+31-Mar-2020 17:04:01.011 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1 371] millisecondes
+31-Mar-2020 17:04:49.149 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Impossible de se connecter à [localhost:8005] (port de base [8005] et offset [0]), Tomcat peut ne pas être en cours dexécution

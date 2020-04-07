@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tomcat WebSocket Ex</title>
+        <script src="jquery-3.3.1.js"></script>
+        <script>
+            var ws = new WebSocket("ws://localhost:8080/wsktex/wssrv");
+            ws.onopen = function(){
+            };
+            ws.onmessage = function(message){
+                console.log(message.data);
+                $("#log").text(message.data+"\n"+$("#log").text());
+            };
+            function postToServer(caller){
+	            console.log(caller.id);
+                ws.send("data");
+            }
+            function closeConnect(){
+                $("#log").text("\good bye\n"+$("#log").text());
+                ws.close();
+            }
+        </script>
+    </head>
+    <body>
+        <textarea id="log" readonly></textarea><br/>
+        <button type="submit" id="data" onClick="postToServer(this)">Get Data</button>
+        <button type="submit" id="discon" onClick="closeConnect()">Disconnect</button>
+    </body>
+</html>
+
